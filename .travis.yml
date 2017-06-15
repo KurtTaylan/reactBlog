@@ -3,7 +3,7 @@ sudo: required
 
 addons:
   sonarqube:
-    organization: "sonarsource"
+    organization: "czechsource"
 
 jdk:
   - oraclejdk8
