@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+  - "6"
+  - "6.1"
+
+dist: trusty
+sudo: required
+
+addons:
+  sonarqube:
+    token:
+      secure: "c21d84c064d92ef8b27f9a5131f2689b7b476370"
+jdk:
+  - oraclejdk8
+script:
+  - sonar-scanner
+cache:
+  directories:
+    - '$HOME/.sonar/cache'

@@ -17,12 +17,14 @@
     "react-router": "^3.0.2",
     "redux": "^3.6.0",
     "redux-form": "4.2.2",
-    "redux-promise": "^0.5.3"
+    "redux-promise": "^0.5.3",
+    "sonarqube-scanner-node": "^0.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "sonarqube": "sonarqube-scanner-node -Dsonar.host.url=https://sonarqube.com -Dsonar.login=c21d84c064d92ef8b27f9a5131f2689b7b476370 -X"
   }
 }
