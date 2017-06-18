@@ -1,16 +1,15 @@
 dist: trusty
 sudo: required
-
 addons:
   sonarqube:
-    organization: "chowanioksource"
-
+    organization: chowanioksource
 jdk:
-  - oraclejdk8
-
+- oraclejdk8
 script:
-  - sonar-scanner
-
+- sonar-scanner
 cache:
   directories:
-    - '$HOME/.sonar/cache'
+  - $HOME/.sonar/cache
+env:
+  global:
+  - secure: o4+GwzDJPR3gnRdXceobZeNbEa6xjuRT8fNJ/E+sTTk+XFCdHmN6txSyKzueZjcf11MYQliLtzx+bU9CofAaxwHgnocb5z1GT94JJBA4Loq94ergj8NFnd5eJrTPYXnkbwDfCPX7ZNkRXtyeiPRwNfja7C95MouuEetDbnYEAk5sQTWm8L1uC+NrxV6YNZPydQ0PGkVLpCUdlix2ggdpnLEZKCn1vTA6KDjZxZUTSU2fBvk+DOu32fsr0CLUnYNQHRgYwGAfRIEXNi76OuRYAxjgJqqIN0R+ScfDsKBR2VO5oW7tTuIcHZ4JgmCkTh9nwb9Ete0WEZWpsQesH3vSSWZ19I0yTMymjdGUpfrTFHWB4Rc4TNWpmqLXW/7y8fWsupHIkVIhEdINHK4GjW/pSL6CGBcESvbuFxEG7pg2RRyue1QWSkrY/mT2CmzeIV0pFbShhv21n8BTGqq2SW6Bs/A9D9paCgI1+aohvX2fZzOuiYKPMre++cMQiXhbTqDJJNbM3tAqG6vFxWc6gBcfdLjdGyEVYUq8hBjR7Zuel0FzGinblUvjwN8F2XRZJhZTudawZWjJlLXVgX8sJR9R6p9s6ouZgWeFPhHPaJ8o7TaQTb8IIxjRB5oBYrNagH81sGYVOzMWhXb5hVZJuaqF6mfz7A9vRLqRKoe2ngJNIzo=

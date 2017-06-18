@@ -25,6 +25,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "sonarqube": "sonarqube-scanner-node -Dsonar.host.url=https://sonarqube.com -Dsonar.login=c21d84c064d92ef8b27f9a5131f2689b7b476370 -X"
+    "sonarqube": "sonarqube-scanner-node -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=c2d9f3d36423dadca603af514a6dd23b42c0923b -X"
   }
 }
