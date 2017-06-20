@@ -1,5 +1,5 @@
 dist: trusty
-sudo: required
+sudo: false
 addons:
   sonarqube:
     organization: chowanioksource
@@ -12,4 +12,4 @@ script:
 - sonar-scanner
 cache:
   directories:
-  - $HOME/.sonar/cache    
+  - $HOME/.sonar/cache
