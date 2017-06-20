@@ -1,5 +1,7 @@
 dist: trusty
 sudo: false
+group: edge  
+
 addons:
   sonarqube:
     organization: chowanioksource
