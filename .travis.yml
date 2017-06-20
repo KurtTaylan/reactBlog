@@ -1,6 +1,6 @@
 dist: trusty
 sudo: false
-group: edge  
+group: edge
 
 addons:
   sonarqube:
@@ -8,8 +8,6 @@ addons:
     token:
       secure: flzOrgQzwEamwit8zRBQzy1bG/6pgYYujAQNGxDpPVBGFkaC67VjXYAb3UMlW01wpSd6l1aj7t1colBCfuX/JNSF9xccedC7mUh2bObVUczgSIOa5+0e8rFT0oqZS+GM8CDVlT59EiEewVcJ731YQmeQ1qgdTo505h9Rve8++QnRm68/tXWDAjI6sOWX4vStWSGxGvVNajP1PZRpMVqH7w6nuRVur1OAtAw6rjdGuH9KPgRum9m0H9lZ5TwQdD4j7BoYoaSGcUle1AI6q71awuNHePBS31Y6NtqfJqXEMdEd0i3iChhNcuTIRD1xI7BPkOQWH+X7U3CX2JEPP50byRnKHQ8IIOfytGOk6RwIw3+nVbzeGOGowVVetkNRkQ3kIa4s6DKA7LepF1rk2+Sk/qy4f82M5f5GbnzLqpAhLLtl6b66x1Th9K3/gCI7GcmoOUFzLmZwn5drJpSmYESk76v8TDw4uoJdGdaQxyFyaTBJs5PweBz9Wkac/aT8wKE/Mu0LcZqR4UTOUCzvlXIi/pEONp2+0VX6kxlPY2IUABEHzFPbbPZTft/4gcVayVie26hpvXjFdrs/q34o1oINeHuR6gU42yzBVYC1PEILmp2+mbvEDOe0SYRqnnbXUGgJ5Bsuxp7WrAgch7t9zMMkxatmNN4LpED/Vw918VE9pRA=
 
-jdk:
-- oraclejdk8
 script:
 - sonar-scanner
 cache:
